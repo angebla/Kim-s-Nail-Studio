@@ -255,6 +255,14 @@ function TreatmentsPage({ setPage }) {
                     {item.what.filter(w => !w.toLowerCase().includes("additional service")).map((w, j) => <li key={j}>{w}</li>)}
                   </ul>
                 </div>
+                {item.styles && (
+                  <div className="treatment-styles">
+                    <h4>Available options</h4>
+                    <div className="style-tags">
+                      {item.styles.map((s, i) => <span key={i} className="style-tag">{s}</span>)}
+                    </div>
+                  </div>
+                )}
               </div>
               <div>
                 <div className="treatment-art">
@@ -266,14 +274,6 @@ function TreatmentsPage({ setPage }) {
                       </div>
                   }
                 </div>
-                {item.styles && (
-                  <div className="treatment-styles">
-                    <h4>Available options</h4>
-                    <div className="style-tags">
-                      {item.styles.map((s, i) => <span key={i} className="style-tag">{s}</span>)}
-                    </div>
-                  </div>
-                )}
               </div>
             </Reveal>
           )}
