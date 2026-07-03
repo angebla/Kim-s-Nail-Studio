@@ -135,7 +135,7 @@ const TREATMENTS = {
         name: "Custom Nail Art",
         tag: "Fully personalised",
         lede: "From subtle gold foil and chrome to flowers, marble and hand-painted designs. Bring your inspiration or let yourself be surprised, we create it together.",
-        styles: ["Foil", "Chrome", "Marble", "Flowers", "Hand-painted", "Swarovski", "Ombré", "Line art", "Abstract"],
+        styles: ["Chrome", "Marble", "Flowers", "Hand-painted", "Ombré", "Line art"],
         what: [
           "Inspiration chat at the start of your appointment",
           "Hand-painted details, foil, chrome, gems or stickers",
