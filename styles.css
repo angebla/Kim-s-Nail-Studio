@@ -253,7 +253,7 @@ h3 { font-size: clamp(28px, 2.8vw, 38px); line-height: 1.05; }
   background-color: #FBEEF1;
   background-image: url("assets/background-flower.png");
   background-size: cover;
-  background-position: right center;
+  background-position: center;
   overflow: hidden;
 }
 .hero::after {
