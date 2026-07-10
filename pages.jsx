@@ -304,13 +304,13 @@ function AboutPage({ setPage }) {
             </div>
           </Reveal>
           <div className="gallery">
-            <div className="tile tall" style={{ backgroundImage: 'url(assets/nails-hero.png)' }} />
-            <div className="tile" style={{ backgroundImage: 'url(assets/nails1.png)' }} />
-            <div className="tile" style={{ backgroundImage: 'url(assets/nails-2.png)' }} />
-            <div className="tile wide" style={{ backgroundImage: 'url(assets/BIAB.jpg)' }} />
-            <div className="tile" style={{ backgroundImage: 'url(assets/nailart.png)' }} />
-            <div className="tile" style={{ backgroundImage: 'url(assets/polish.png)' }} />
-            <div className="tile" style={{ backgroundImage: 'url(assets/manicure.png)' }} />
+            <div className="tile"><img src="assets/nails-hero.png" alt="" /></div>
+            <div className="tile"><img src="assets/nails1.png" alt="" /></div>
+            <div className="tile"><img src="assets/nails-2.png" alt="" /></div>
+            <div className="tile"><img src="assets/BIAB.jpg" alt="" /></div>
+            <div className="tile"><img src="assets/nailart.png" alt="" /></div>
+            <div className="tile"><img src="assets/polish.png" alt="" /></div>
+            <div className="tile"><img src="assets/manicure.png" alt="" /></div>
           </div>
         </div>
       </section>

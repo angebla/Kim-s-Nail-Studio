@@ -1174,10 +1174,8 @@ h3 { font-size: clamp(28px, 2.8vw, 38px); line-height: 1.05; }
   background: rgba(255,255,255,0.85) !important;
 }
 .gallery { columns: 3; column-gap: 16px; margin-top: 56px; }
-.gallery .tile { break-inside: avoid; margin-bottom: 16px; border-radius: 0; border: 1px solid var(--line); overflow: hidden; background-size: cover; background-position: center; aspect-ratio: 3/4; }
-.gallery .tile.wide { aspect-ratio: 4/3; }
-.gallery .tile.tall { aspect-ratio: 2/3; }
-.gallery .tile:nth-child(3n) { aspect-ratio: 4/5; }
+.gallery .tile { break-inside: avoid; margin-bottom: 16px; border-radius: 0; border: 1px solid var(--line); overflow: hidden; }
+.gallery .tile img { display: block; width: 100%; height: auto; }
 @media (max-width: 720px) {
   .gallery { columns: 2; }
 }
