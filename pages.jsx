@@ -306,13 +306,13 @@ function AboutPage({ setPage }) {
           </Reveal>
           <div className="gallery">
             <div className="tile"><img src="assets/nails-hero.png" alt="" /></div>
-            <div className="tile"><img src="assets/polish.png" alt="" /></div>
-            <div className="tile"><img src="assets/3.png" alt="" /></div>
             <div className="tile"><img src="assets/nailart.png" alt="" /></div>
-            <div className="tile"><img src="assets/5.png" alt="" /></div>
-            <div className="tile"><img src="assets/6.png" alt="" /></div>
             <div className="tile"><img src="assets/7.png" alt="" /></div>
+            <div className="tile"><img src="assets/polish.png" alt="" /></div>
+            <div className="tile"><img src="assets/5.png" alt="" /></div>
             <div className="tile"><img src="assets/8.png" alt="" /></div>
+            <div className="tile"><img src="assets/3.png" alt="" /></div>
+            <div className="tile"><img src="assets/6.png" alt="" /></div>
             <div className="tile"><img src="assets/9.png" alt="" /></div>
           </div>
         </div>
