@@ -227,6 +227,7 @@ h3 { font-size: clamp(28px, 2.8vw, 38px); line-height: 1.05; }
   font-size: 14px;
   padding: 10px 20px;
   color: #ffffff !important;
+  align-self: flex-start;
 }
 .mobile-menu.open .mobile-menu-cta {
   opacity: 1;
