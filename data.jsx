@@ -99,7 +99,7 @@ const TREATMENTS = {
           "Refill every 3–4 weeks recommended",
         ],
         prices: [
-          { name: "New solar set", duration: "45 min", amt: "€ 60" },
+          { name: "New solar set", duration: "45 min", amt: "€ 55" },
           { name: "Solar refill", duration: "90 min", amt: "€ 48" },
           { name: "Solar removal", duration: "45 min", amt: "€ 22" },
         ],
