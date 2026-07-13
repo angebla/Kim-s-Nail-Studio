@@ -87,6 +87,25 @@ const TREATMENTS = {
         ],
       },
       {
+        id: "solar",
+        name: "Solar Nails",
+        tag: "Natural-looking strength",
+        lede: "Solar nails are a premium acrylic applied directly to the natural nail — no tips needed. They offer a clean, natural look with lasting strength and are easy to maintain.",
+        what: [
+          "Nail prep & cuticle care",
+          "Direct application of solar acrylic to the natural nail",
+          "No tips required — sculpted to your desired shape",
+          "Filing to desired shape (almond, coffin, square, oval)",
+          "Colour finish (gel polish or French) is optional and an additional service",
+          "Refill every 3–4 weeks recommended",
+        ],
+        prices: [
+          { name: "New solar set", duration: "120 min", amt: "€ 60" },
+          { name: "Solar refill", duration: "90 min", amt: "€ 48" },
+          { name: "Solar removal", duration: "45 min", amt: "€ 22" },
+        ],
+      },
+      {
         id: "polygel",
         name: "Polygel",
         tag: "Lightweight alternative",
