@@ -15,7 +15,7 @@ const TREATMENTS = {
           "Hand scrub and short hand massage",
         ],
         prices: [
-          { name: "Classic manicure", duration: "45 min", amt: "€ 35" },
+          { name: "Classic manicure", duration: "35 min", amt: "€ 35" },
           { name: "Luxe manicure + hand massage", duration: "60 min", amt: "€ 42" },
           { name: "Luxe + paraffin hand treatment", duration: "75 min", amt: "€ 52" },
         ],
@@ -34,7 +34,7 @@ const TREATMENTS = {
           "Lasts 2 to 3 weeks without chipping",
         ],
         prices: [
-          { name: "Gel polish one colour", duration: "60 min", amt: "€ 25" },
+          { name: "Gel polish one colour", duration: "30 min", amt: "€ 25" },
           { name: "Gel polish French or Babyboomer", duration: "75 min", amt: "€ 45" },
           { name: "Gel polish removal", duration: "20 min", amt: "€ 12" },
         ],
@@ -58,7 +58,7 @@ const TREATMENTS = {
           "Refill every 3–4 weeks",
         ],
         prices: [
-          { name: "BIAB overlay (own length)", duration: "75 min", amt: "€ 70" },
+          { name: "BIAB overlay (own length)", duration: "45 min", amt: "€ 70" },
           { name: "BIAB with light extension", duration: "90 min", amt: "€ 58" },
           { name: "BIAB refill", duration: "75 min", amt: "€ 45" },
           { name: "BIAB + nail art", duration: "from", amt: "€ 65" },
@@ -80,7 +80,7 @@ const TREATMENTS = {
           "Refill every 3–4 weeks recommended",
         ],
         prices: [
-          { name: "New acrylic set one colour", duration: "120 min", amt: "€ 55" },
+          { name: "New acrylic set one colour", duration: "45 min", amt: "€ 55" },
           { name: "Acrylic French / Babyboomer", duration: "135 min", amt: "€ 72" },
           { name: "Acrylic refill", duration: "90 min", amt: "€ 48" },
           { name: "Acrylic removal", duration: "45 min", amt: "€ 22" },
@@ -100,7 +100,7 @@ const TREATMENTS = {
           "Refill every 3–4 weeks recommended",
         ],
         prices: [
-          { name: "New solar set", duration: "120 min", amt: "€ 60" },
+          { name: "New solar set", duration: "45 min", amt: "€ 60" },
           { name: "Solar refill", duration: "90 min", amt: "€ 48" },
           { name: "Solar removal", duration: "45 min", amt: "€ 22" },
         ],
@@ -139,7 +139,7 @@ const TREATMENTS = {
           "Foot massage and moisturising cream",
         ],
         prices: [
-          { name: "Classic pedicure", duration: "60 min", amt: "€ 55" },
+          { name: "Classic pedicure", duration: "45 min", amt: "€ 55" },
           { name: "Luxe pedicure + massage", duration: "75 min", amt: "€ 55" },
         ],
       },
