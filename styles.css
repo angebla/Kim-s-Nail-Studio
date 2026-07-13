@@ -1177,11 +1177,11 @@ h3 { font-size: clamp(28px, 2.8vw, 38px); line-height: 1.05; }
   font-size: 10px !important;
   background: rgba(255,255,255,0.85) !important;
 }
-.gallery { columns: 3; column-gap: 16px; margin-top: 56px; }
-.gallery .tile { break-inside: avoid; margin-bottom: 16px; border-radius: 0; border: 1px solid var(--line); overflow: hidden; }
+.gallery { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 56px; align-items: start; }
+.gallery .tile { border-radius: 0; border: 1px solid var(--line); overflow: hidden; }
 .gallery .tile img { display: block; width: 100%; height: auto; }
 @media (max-width: 720px) {
-  .gallery { columns: 2; }
+  .gallery { grid-template-columns: repeat(2, 1fr); }
   .gallery .tile:last-child { display: none; }
 }
 .placeholder-art {
