@@ -157,7 +157,7 @@ const TREATMENTS = {
         what: [
           "Inspiration chat at the start of your appointment",
           "Hand-painted details, foil, chrome, gems or stickers",
-          "Can be combined with any gel polish, BIAB or acrylic treatment",
+          "Can be combined with any gel polish, BIAB, acrylic or solar treatment",
         ],
         prices: [],
       },
