@@ -89,6 +89,7 @@ const TREATMENTS = {
       {
         id: "solar",
         name: "Solar Nails",
+        styles: ["Regular", "Pink powder", "Color powder", "Babyboom"],
         tag: "Natural-looking strength",
         lede: "Solar nails are a premium acrylic applied directly to the natural nail. They offer a clean, natural look with lasting strength and are easy to maintain.",
         what: [
