@@ -181,6 +181,7 @@ function HomePage({ setPage }) {
 function TreatmentsPage({ setPage }) {
   const SERVICES = [
     { label: "Acryl",       id: "acryl"      },
+    { label: "Solar",       id: "solar"      },
     { label: "BIAB",        id: "biab"       },
     { label: "Manicure",    id: "luxe-mani"  },
     { label: "Pedicure",    id: "pedicure"   },
