@@ -322,120 +322,6 @@ function AboutPage({ setPage }) {
 }
 
 // ─────────────── BOOKING ───────────────
-function BookingPage({ setPage }) {
-  const [service, setService] = useStateP("BIAB Overlay");
-  const [date, setDate] = useStateP("Sat 16 May");
-  const [time, setTime] = useStateP("11:00");
-  const [submitted, setSubmitted] = useStateP(false);
-
-  const services = ["Luxe Manicure", "Gel Polish", "BIAB Overlay", "Acrylic Set", "Acrylic Refill", "Nail Art", "Removal", "Advice"];
-  const dates = ["Tue 13", "Wed 14", "Thu 15", "Fri 16", "Sat 17", "Mon 19", "Tue 20"];
-  const times = ["09:30", "11:00", "12:30", "14:00", "15:30", "17:00"];
-
-  if (submitted) {
-    return (
-      <section className="section" style={{ paddingTop: 180 }}>
-        <div className="container-narrow" style={{ textAlign: 'center' }}>
-          <span className="script" style={{ fontSize: 'clamp(72px, 9vw, 120px)' }}>see you soon!</span>
-          <h2 style={{ marginTop: 0 }}>Your request is sent.</h2>
-          <p style={{ color: 'var(--ink-mute)', maxWidth: 480, margin: '24px auto 32px' }}>
-            We confirm your appointment within a few hours via email or WhatsApp. Grab a cup of tea, see you soon.
-          </p>
-          <div style={{ display: 'inline-flex', gap: 12 }}>
-            <button className="btn btn-outline" onClick={() => {setSubmitted(false);setPage("home");}}>To home</button>
-            <button className="btn btn-primary" onClick={() => setSubmitted(false)}>Another booking</button>
-          </div>
-        </div>
-      </section>);
-
-  }
-
-  return (
-    <>
-      <section className="page-hero blush-bg">
-        <div className="container-narrow">
-          <h1>Book</h1>
-          <p>Fill in the form and we confirm within a few hours via email or WhatsApp.</p>
-        </div>
-      </section>
-
-      <section className="section-tight">
-        <div className="container">
-          <div className="book-grid">
-            <Reveal>
-              <h3 style={{ marginBottom: 24 }}>Your details</h3>
-              <div className="field-row">
-                <div className="field"><label>First name</label><input placeholder="Lotte" /></div>
-                <div className="field"><label>Last name</label><input placeholder="Vandenberghe" /></div>
-              </div>
-              <div className="field-row">
-                <div className="field"><label>Email</label><input type="email" placeholder="lotte@email.com" /></div>
-                <div className="field"><label>Phone</label><input placeholder="+32 470 12 34 56" /></div>
-              </div>
-              <div className="field">
-                <label>Treatment</label>
-                <div className="chip-row">
-                  {services.map((s) => <button key={s} type="button" className={"chip" + (service === s ? " active" : "")} onClick={() => setService(s)}>{s}</button>)}
-                </div>
-              </div>
-              <div className="field">
-                <label>Date</label>
-                <div className="chip-row">
-                  {dates.map((d) => <button key={d} type="button" className={"chip" + (date === d ? " active" : "")} onClick={() => setDate(d)}>{d}</button>)}
-                </div>
-              </div>
-              <div className="field">
-                <label>Time</label>
-                <div className="chip-row">
-                  {times.map((t) => <button key={t} type="button" className={"chip" + (time === t ? " active" : "")} onClick={() => setTime(t)}>{t}</button>)}
-                </div>
-              </div>
-              <div className="field">
-                <label>Inspiration or notes</label>
-                <textarea rows="4" placeholder="Pinterest link, color preference, first time…" />
-              </div>
-              <button type="button" className="btn btn-primary" onClick={() => setSubmitted(true)}>Send request <span className="arrow">→</span></button>
-            </Reveal>
-
-            <Reveal delay={2}>
-              <div className="studio-card">
-                <h3>Your appointment</h3>
-                <div className="studio-row">
-                  <span className="icn">✿</span>
-                  <div><div className="lab">Treatment</div><div className="val">{service}</div></div>
-                </div>
-                <div className="studio-row">
-                  <span className="icn">✦</span>
-                  <div><div className="lab">When</div><div className="val">{date} · {time}</div></div>
-                </div>
-                <div className="studio-row">
-                  <span className="icn">❀</span>
-                  <div><div className="lab">Address</div><div className="val">Beethovenstraat 77<br />1077 JM Amsterdam</div></div>
-                </div>
-                <div className="studio-row">
-                  <span className="icn">♡</span>
-                  <div><div className="lab">Cancellation</div><div className="val">Free up to 24h before.</div></div>
-                </div>
-                <hr className="divider" style={{ margin: '20px 0' }} />
-                <div style={{ fontSize: 13, color: 'var(--ink-mute)', lineHeight: 1.6 }}>
-                  Rather WhatsApp? Message us at <strong style={{ color: 'var(--ink)' }}>+32 470 12 34 56</strong>.
-                </div>
-              </div>
-              <div className="studio-card" style={{ marginTop: 16 }}>
-                <h3>Opening hours</h3>
-                <div className="studio-row"><span className="icn">·</span><div><div className="lab">Tue to Fri</div><div className="val">10:00 to 19:00</div></div></div>
-                <div className="studio-row"><span className="icn">·</span><div><div className="lab">Saturday</div><div className="val">09:00 to 17:00</div></div></div>
-                <div className="studio-row"><span className="icn">·</span><div><div className="lab">Sun & Mon</div><div className="val">Closed</div></div></div>
-              </div>
-            </Reveal>
-          </div>
-        </div>
-      </section>
-    </>);
-
-}
-
-// ─────────────── CONTACT ───────────────
 function ContactPage({ setPage }) {
   return (
     <>
@@ -468,7 +354,7 @@ function ContactPage({ setPage }) {
 
 }
 
-Object.assign(window, { HomePage, TreatmentsPage, AboutPage, BookingPage, ContactPage });
+Object.assign(window, { HomePage, TreatmentsPage, AboutPage, ContactPage });
 
 // ─── APP ───
 const { useState: useStateA, useEffect: useEffectA } = React;
@@ -477,7 +363,6 @@ const PAGES = {
   home: HomePage,
   treatments: TreatmentsPage,
   about: AboutPage,
-  book: BookingPage,
   contact: ContactPage,
 };
 
