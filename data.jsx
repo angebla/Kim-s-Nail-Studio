@@ -90,7 +90,7 @@ const TREATMENTS = {
         id: "solar",
         name: "Solar Nails",
         tag: "Natural-looking strength",
-        lede: "Solar nails are a premium acrylic applied directly to the natural nail — no tips needed. They offer a clean, natural look with lasting strength and are easy to maintain.",
+        lede: "Solar nails are a premium acrylic applied directly to the natural nail. They offer a clean, natural look with lasting strength and are easy to maintain.",
         what: [
           "Nail prep & cuticle care",
           "Direct application of solar acrylic to the natural nail",
