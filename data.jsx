@@ -94,7 +94,6 @@ const TREATMENTS = {
         what: [
           "Nail prep & cuticle care",
           "Direct application of solar acrylic to the natural nail",
-          "No tips required — sculpted to your desired shape",
           "Filing to desired shape (almond, coffin, square, oval)",
           "Colour finish (gel polish or French) is optional and an additional service",
           "Refill every 3–4 weeks recommended",
